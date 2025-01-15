@@ -39,8 +39,6 @@ class _HomescreenState extends State<Homescreen> {
     }
   }
 
-  FirebaseAuthService _authService = FirebaseAuthService();
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
