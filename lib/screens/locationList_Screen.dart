@@ -156,7 +156,6 @@ class _LocationListScreenState extends State<LocationListScreen> {
                 trailing: IconButton(
                   icon: Icon(Icons.delete),
                   onPressed: () async {
-                    // Delete specific location document
                     await FirebaseFirestore.instance
                         .collection('locations')
                         .doc(location.id)
